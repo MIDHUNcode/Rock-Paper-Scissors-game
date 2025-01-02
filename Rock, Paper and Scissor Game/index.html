@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ROCK | PAPER | SCISSOR GAME</title>
+  <link rel="icon" href="https://img.icons8.com/?size=100&id=43614&format=png&color=000000">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+      <p>Computer: <span id="cpu-point">0</span></p>
+      <p>You: <span  id="you-point">0</span></p>
+    </div>
+    <div class="center">
+      <button class="control" onclick="user('ROCK')">&#x1F5FF;<span class="a">ROCK</span></button>
+      <button class="control" onclick="user('PAPER')">&#x1F4C3;<span class="a">PAPER</span></button>
+      <button class="control" onclick="user('SCISSOR')"><span class="a">SCISSOR</span></button>
+    </div>
+    <div class="result">
+      <p id="you" class="final"></p>
+      <p id="cpu" class="final"></p>
+      <p id="result" class="final"></p>
+      <p id="summary" class="final">Start the GAME</p>
+    </div>
+    <div class="bottom">
+      <button class="imp1" onclick="startGame()">Start</button>
+      <button class="imp2" onclick="reset()">Reset</button>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

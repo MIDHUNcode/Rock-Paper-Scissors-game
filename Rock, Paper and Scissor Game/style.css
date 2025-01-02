@@ -1,0 +1,105 @@
+/*GENERAL*/
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(80, 90, 98, 0.829);
+  position: relative;
+}
+button{
+  cursor:pointer;
+}
+button:hover{
+  opacity: 0.8;
+}
+button:active{
+  opacity: 0.5;
+}
+/*CONTAIN*/
+.container{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.642);
+  height: 430px;
+  width: 500px;
+  top: 15%;
+  left:30%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px rgba(0,0,0,0.45);
+}
+/*TOP*/
+.top{
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-left: 7%;
+  margin-top: 6%;
+  color: white;
+}
+span{
+  color: rgb(20, 121, 236);
+}
+/*CENTER*/
+.center{
+  display: inline-block;
+  margin-top: 8%;
+  margin-left: 6%;
+}
+.control{
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  font-size: 55px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.a{
+  font-size: 16px;
+  color: white;
+  display: block;
+}
+/*RESULT*/
+.result{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  height: 30%;
+  color: white;
+}
+.final{
+  display: block;
+  padding-bottom: 5px;
+}
+/*BOTTOM*/
+.bottom{
+  display: flex;
+  width: 100%;
+  height:auto;
+  justify-content: center;
+  align-items: center;
+}
+.imp2{
+  padding: 10px 15px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
+.imp1{
+  padding: 10px 25px;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+}
